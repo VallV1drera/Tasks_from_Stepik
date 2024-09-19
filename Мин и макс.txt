@@ -1,0 +1,29 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b == c:
+  print((a), '\n', (b), '\n', (c))
+if c > a == b:
+  print((c), '\n', (a), '\n', (b))
+if b > a == c:
+  print((b), '\n', (a), '\n', (c))
+if a == b > c:
+  print((a), '\n', (c), '\n', (b))
+if a == c > b:
+  print((a), '\n', (b), '\n', (c))
+if b == c > a:
+  print((b), '\n', (a), '\n', (c))
+if a > b == c:
+  print((a), '\n', (b), '\n', (c))
+if c > b > a:
+  print((c), '\n', (a), '\n', (b))
+if b > c > a:
+  print((b), '\n', (a), '\n', (c))
+if c > a > b:
+  print((c), '\n', (b), '\n', (a))
+if b > a > c:
+  print((b), '\n', (c), '\n', (a))
+if a > c > b:
+  print((a), '\n', (b), '\n', (c))
+if a > b > c:
+  print((a), '\n', (c), '\n', (b))

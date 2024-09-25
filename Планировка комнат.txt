@@ -1,0 +1,15 @@
+f = str (input())
+if f == "прямоугольник":
+  a = float (input())
+  b = float (input())
+  print(a * b)
+if f == "треугольник":
+  a = float (input())
+  b = float (input())
+  c = float (input())
+  p = float((a+b+c)/2)
+  print((p*(p-a)*(p-b)*(p-c))**0.5)
+if f == "круг":
+  pi = 3.14
+  r = float(input())
+  print(pi * (r**2))
